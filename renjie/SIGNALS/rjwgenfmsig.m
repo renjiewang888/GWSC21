@@ -1,7 +1,7 @@
 function sigVec = rjwgenfmsig(dataX,snr,b,f0,f1)
-% Generate a frequency modulated(FM) signal
+% Generate a frequency modulated(FM) sinusiod
 % S = RJWGENFMSIG(X,SNR,B,F0,F1)
-% Generates a sinusoidal signal S. X is the vector of
+% Generates a frequency modulated sinusoid S. X is the vector of
 % time stamps at which the samples of the signal are to be computed. SNR is
 % the matched filtering signal-to-noise ratio of S. F0 and F1 are the
 % frequency.
