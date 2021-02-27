@@ -39,8 +39,15 @@ plot(posFreq,abs(fftSig));
 
 %Plot a spectrogram
 %----------------
-winLen = 0.2;%sec
-ovrlp = 0.1;%sec
+sampFreq = 1024/8;
+nSamples = 2048/16;
+timeVec = (0:(nSamples-1))/sampFreq;
+
+% Generate the signal
+sigVec = rjwgensinsig(timeVec,A,f0,phi0);
+
+winLen = 1/2;%sec
+ovrlp = 1/3;%sec
 %Convert to integer number of samples 
 winLenSmpls = floor(winLen*samplFreq);
 ovrlpSmpls = floor(ovrlp*samplFreq);
