@@ -6,8 +6,8 @@
 
 %%
 % Path to folder containing signal and noise generation codes
-addpath ../SIGNALS
-addpath ../NOISE
+addpath D:/GWSC21/SIGNALS
+addpath D:/GWSC21/NOISE
 
 %%
 % This is the target SNR for the LR

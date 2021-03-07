@@ -5,8 +5,8 @@
 %%
 % We will reuse codes that have already been written.
 % Path to folder containing signal and noise generation codes.
-addpath ../SIGNALS
-addpath ../NOISE
+addpath D:/GWSC21//SIGNALS
+addpath D:/GWSC21/NOISE
 
 
 %% Parameters for data realization
